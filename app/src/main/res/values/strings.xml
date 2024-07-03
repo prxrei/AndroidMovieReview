@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">MovieRater</string>
+    <string name="english">English</string>
+    <string name="add_movie">Add Movie</string>
+    <string name="movierater">MovieRater</string>
+    <string name="name">Name</string>
+    <string name="description">Description</string>
+    <string name="language">Language</string>
+    <string name="chinese">Chinese</string>
+    <string name="malay">Malay</string>
+    <string name="tamil">Tamil</string>
+    <string name="release_date">Release Date</string>
+    <string name="not_suitable_for_all_audience">Not suitable for all audience</string>
+    <string name="violence">Violence</string>
+    <string name="language_used">Language used</string>
+    <string name="enter_description_here">Enter Description here</string>
+    <string name="enter_name_here">Enter Name here</string>
+    <string name="enter_date_here">Enter Date here(DD-MM-YYYY)</string>
+    <string name="title">Title</string>
+    <string name="titledetails">Title:</string>
+    <string name="overviewdetails">Overview:</string>
+    <string name="languagedetails">Language:</string>
+    <string name="releasedatedetails">Release Date:</string>
+    <string name="suitabledetails">Suitable for children below 12:</string>
+    <string name="spacing">\n\\n</string>
+    <string name="shareview">Share your view on the show</string>
+    <string name="add">Add</string>
+    <string name="add_button">Add</string>
+    <string name="reviewhere">No Reviews yet.</string>
+    <string name="reviews">Reviews:</string>
+    <string name="edit">Edit</string>
+    <string name="cancel">Cancel</string>
+    <string name="save">Save</string>
+    <string name="ratingtext">Long Press here to add your review.</string>
+</resources>

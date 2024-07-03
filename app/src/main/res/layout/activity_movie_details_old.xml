@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.moviereview.MovieDetails_old">
+
+    <TextView
+        android:id = "@+id/pad1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text = "@string/spacing"
+        android:textSize="6sp"
+        android:visibility="invisible"/>
+
+    <ImageView
+        android:id="@+id/movieicon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/pad1"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/movieicon" />
+
+    <TextView
+        android:id = "@+id/pad2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text = "@string/spacing"
+        android:textSize="6sp"
+        android:layout_below="@id/movieicon"
+        android:visibility="invisible"/>
+
+    <TextView
+        android:id = "@+id/Title"
+        android:text = "@string/titledetails"
+        android:layout_below="@id/pad2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"/>
+
+    <TextView
+        android:id = "@+id/pad3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text = "@string/spacing"
+        android:textSize="4sp"
+        android:layout_below="@id/Title"
+        android:visibility="invisible"/>
+
+    <TextView
+        android:id = "@+id/title1"
+        android:text = ""
+        android:layout_below="@id/pad3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:id = "@+id/pad4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text = "@string/spacing"
+        android:textSize="4sp"
+        android:layout_below="@id/title1"
+        android:visibility="invisible"/>
+
+    <TextView
+        android:id = "@+id/Overview"
+        android:text = "@string/overviewdetails"
+        android:layout_below="@id/pad4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"/>
+
+    <TextView
+        android:id = "@+id/pad5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text = "@string/spacing"
+        android:textSize="4sp"
+        android:layout_below="@id/Overview"
+        android:visibility="invisible"/>
+
+    <TextView
+        android:id = "@+id/overview"
+        android:text = ""
+        android:layout_below="@id/pad5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:id = "@+id/pad6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text = "@string/spacing"
+        android:textSize="4sp"
+        android:layout_below="@id/overview"
+        android:visibility="invisible"/>
+
+    <TextView
+        android:id = "@+id/Language"
+        android:text = "@string/languagedetails"
+        android:layout_below="@id/pad6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"/>
+
+    <TextView
+        android:id = "@+id/pad7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text = "@string/spacing"
+        android:textSize="4sp"
+        android:layout_below="@id/Language"
+        android:visibility="invisible"/>
+
+    <TextView
+        android:id = "@+id/language"
+        android:text = ""
+        android:layout_below="@id/pad7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:id = "@+id/pad8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text = "@string/spacing"
+        android:textSize="4sp"
+        android:layout_below="@id/language"
+        android:visibility="invisible"/>
+
+    <TextView
+        android:id = "@+id/Releasedate"
+        android:text = "@string/releasedatedetails"
+        android:layout_below="@id/pad8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"/>
+
+    <TextView
+        android:id = "@+id/pad9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text = "@string/spacing"
+        android:textSize="4sp"
+        android:layout_below="@id/Releasedate"
+        android:visibility="invisible"/>
+
+    <TextView
+        android:id = "@+id/releasedate"
+        android:text = ""
+        android:layout_below="@id/pad9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:id = "@+id/pad10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text = "@string/spacing"
+        android:textSize="4sp"
+        android:layout_below="@id/releasedate"
+        android:visibility="invisible"/>
+
+    <TextView
+        android:id = "@+id/Suitable"
+        android:text = "@string/suitabledetails"
+        android:layout_below="@id/pad10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"/>
+
+    <TextView
+        android:id = "@+id/pad11"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text = "@string/spacing"
+        android:textSize="4sp"
+        android:layout_below="@id/Suitable"
+        android:visibility="invisible"/>
+
+    <TextView
+        android:id = "@+id/suitable"
+        android:text = ""
+        android:layout_below="@id/pad11"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"/>
+    
+</RelativeLayout>

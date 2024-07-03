@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.moviereview.AddMovieActivity">
+
+    <TextView
+        android:id="@+id/Name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/name"
+        android:textSize="16sp"/>
+
+    <EditText
+        android:id="@+id/Name_Input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Name"
+        android:hint="@string/enter_name_here"
+        android:minHeight="48dp"
+        android:textColorHint="#8D6E63"
+        android:inputType="textPersonName"
+        tools:ignore="VisualLintTextFieldSize" />
+
+    <TextView
+        android:id="@+id/Description"
+        android:layout_below="@+id/Name_Input"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/description"
+        android:textSize="16sp"/>
+
+    <EditText
+        android:id="@+id/Description_Input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Description"
+        android:hint="@string/enter_description_here"
+        android:inputType="text"
+        android:minHeight="48dp"
+        android:textColorHint="#8D6E63"
+        tools:ignore="VisualLintTextFieldSize" />
+
+    <TextView
+        android:id="@+id/Language"
+        android:layout_below="@+id/Description_Input"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/language"
+        android:textSize="16sp"/>
+
+    <RadioGroup
+        android:id="@+id/RadioGroup"
+        android:layout_below="@+id/Language"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/English"
+            android:text="@string/english"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <RadioButton
+            android:id="@+id/Chinese"
+            android:text="@string/chinese"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <RadioButton
+            android:id="@+id/Malay"
+            android:text="@string/malay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <RadioButton
+            android:id="@+id/Tamil"
+            android:text="@string/tamil"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/ReleaseDate"
+        android:layout_below="@+id/RadioGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/release_date"
+        android:textSize="16sp" />
+
+
+    <EditText
+        android:id="@+id/ReleaseDate_Input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ReleaseDate"
+        android:hint="@string/enter_date_here"
+        android:inputType="date"
+        android:maxLength="10"
+        android:minHeight="48dp"
+        android:textColorHint="#8D6E63"
+        tools:ignore="VisualLintTextFieldSize" />
+
+    <CheckBox
+        android:id="@+id/appropriate"
+        android:layout_below="@+id/ReleaseDate_Input"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/not_suitable_for_all_audience"/>
+
+    <CheckBox
+        android:id="@+id/Violence"
+        android:layout_below="@+id/appropriate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/violence"
+        android:visibility="invisible"
+        />
+
+    <CheckBox
+        android:id="@+id/LanguageUsed"
+        android:layout_below="@+id/appropriate"
+        android:layout_toEndOf="@+id/appropriate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/language_used"
+        android:visibility="invisible"
+        />
+
+</RelativeLayout>
